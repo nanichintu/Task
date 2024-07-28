@@ -14,8 +14,8 @@ const WeatherApp = () => {
   const [initialTemperature, setInitialTemperature] = useState("");
   const [initialState, setInitialState] = useState("");
 
-  const handleInputChange = (e) => {
-    setCity(e.target.value);
+  const handleInputChange = (event) => {
+    setCity(event.target.value);
   };
 
   const handleSubmit = async (e) => {
